@@ -350,13 +350,16 @@ li {
   height: 92px;
   width: 170px;
   border-radius: 4px;
-  fill: #afb1b8;
+  color: #afb1b8;
   background-color: transparent;
 }
 .client-link:hover,
-.client-link:focus{
-  fill:var(--c-blue)
-background-color:var(--bg-c-blue)
+.client-link:focus {
+  color: var(--c-blue);
+  border-color: var(--bg-c-blue);
+}
+.icon-group {
+  fill: currentColor;
 }
 
 .footer {
