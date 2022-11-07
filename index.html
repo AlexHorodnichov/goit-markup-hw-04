@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <!--Header-->
   <header>
     <div class="container header-wrapper">
@@ -25,8 +24,12 @@
         </ul>
       </nav>
       <ul class="contacts-list">
-        <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="contacts mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a class="contacts contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </div>
 
@@ -35,12 +38,11 @@
   <!--Main content-->
 
   <main>
-
     <section class="section first-block">
-
-      <h1 class="blocktext">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-      <button class="order-btn">Замовити послугу</button>
-
+      <div class="container hero">
+        <h1 class="blocktext">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <button class="order-btn">Замовити послугу</button>
+      </div>
     </section>
 
     <section class="section section-content">
@@ -48,24 +50,29 @@
         <!--<h2>Наші переваги</h2>-->
         <ul class="features-box">
           <li class="feature">
+            <img class="images-benefits" src="./images/icons.svg/group1.svg" alt="радар" width="270" height="120">
             <h3 class="benefits">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="text">
               Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
           <li class="feature">
+            <img class="images-benefits" src="./images/icons.svg/group2.svg" alt="годинник" width="270" height="120">
             <h3 class="benefits">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
           <li class="feature">
+            <img class="images-benefits" src="./images/icons.svg/group3.svg" alt="графік" width="270" height="120">
             <h3 class="benefits">ПЛАНУВАННЯ</h3>
             <p class="text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li class="feature">
+            <img class="images-benefits" src="./images/icons.svg/group4.svg" alt="космос" width="270" height="120">
+
             <h3 class="benefits">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="text">
               Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -97,23 +104,160 @@
         <ul class="cards-set">
           <li class="card">
             <img src="./images/index/photo1.jpg" alt="Працівник Игорь" width="270">
-            <h3 class="name">Ігор Дем'яненко</h3>
-            <p class="position">Product Designer</p>
+            <div class="card-heros">
+              <h3 class="name">Ігор Дем'яненко</h3>
+              <p class="position">Product Designer</p>
+              <ul class="card-icons-social">
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/instagram.svg" alt="instagram">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/linkedin.svg" alt="linkedin">
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="card">
             <img src="./images/index/photo2.jpg" alt="Працівник Ольга" width="270">
-            <h3 class="name">Ольга Рєпіна</h3>
-            <p class="position">Frontend Developer</p>
+            <div class="card-heros">
+              <h3 class="name">Ольга Рєпіна</h3>
+              <p class="position">Frontend Developer</p>
+              <ul class="card-icons-social">
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/instagram.svg" alt="instagram">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/linkedin.svg" alt="linkedin">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
           </li>
           <li class="card">
             <img src="./images/index/photo3.jpg" alt="Працівник Николай" width="270">
-            <h3 class="name">Микола Тарасов</h3>
-            <p class="position">Marketing</p>
+            <div class="card-heros">
+              <h3 class="name">Микола Тарасов</h3>
+              <p class="position">Marketing</p>
+              <ul class="card-icons-social">
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/instagram.svg" alt="instagram">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/linkedin.svg" alt="linkedin">
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="card">
             <img src="./images/index/photo4.jpg" alt="Працівник Михаил" width="270">
-            <h3 class="name">Михайло Єрмаков</h3>
-            <p class="position">UI Designer</p>
+            <div class="card-heros">
+              <h3 class="name">Михайло Єрмаков</h3>
+              <p class="position">UI Designer</p>
+              <ul class="card-icons-social">
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/instagram.svg" alt="instagram">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li class="icons-social">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/icons.svg/linkedin.svg" alt="linkedin">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="large-header">
+          Постійні клієнти
+        </h2>
+        <ul class="regular-customers">
+          <li>
+            <a href="#">
+              <img src="./images/icons.svg/company/company1.svg" alt="">
+            </a>
+          </li>
+          <li>
+          <a href="#">
+            <img src="./images/icons.svg/company/company2.svg" alt="">
+          </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/icons.svg/company/company3.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/icons.svg/company/company4.svg" alt="">
+            </a>
+          </li>
+          <li>
+          <a href="#">
+            <img src="./images/icons.svg/company/company5.svg" alt="">
+          </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/icons.svg/company/company6.svg" alt="">
+            </a>
           </li>
         </ul>
       </div>
@@ -122,16 +266,46 @@
 
   </main>
   <footer class="footer">
-    <div class="container">
-      <a class="footer-logo" href="./index.html"><span class="logo">Web</span>Studio</a>
-      <address>
-        <a class="footer-item" href="https://goo.gl/maps/DmpzDfKuA3Ak4CY98" target="_blank" rel="noopener noreferrer">м.
-          Київ, пр-т Лесі
-          Українки, 26</a>
-        <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-      </address>
+    <div class="container footer-social">
+      <div>
+        <a class="footer-logo" href="./index.html"><span class="logo">Web</span>Studio</a>
+        <address>
+          <a class="footer-item" href="https://goo.gl/maps/DmpzDfKuA3Ak4CY98" target="_blank"
+            rel="noopener noreferrer">м.
+            Київ, пр-т Лесі
+            Українки, 26</a>
+          <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+      </div>
+      <div class="">
+        <h3 class="footer-title">приєднуйтесь</h3>
+        <ul class="card-icons-social">
+          <li class="icons-social">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icons.svg/instagram.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="icons-social">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icons.svg/twitter.svg" alt="twitter">
+            </a>
+          </li>
+          <li class="icons-social">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icons.svg/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li class="icons-social">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icons.svg/linkedin.svg" alt="linkedin">
+            </a>
+          </li>
+        </ul>
+      </div>
+
     </div>
+
 
   </footer>
 </body>
