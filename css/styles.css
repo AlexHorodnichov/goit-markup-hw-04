@@ -95,7 +95,11 @@ header {
 
 .link:hover,
 .link:focus {
+  display: block;
   color: var(--c-blue);
+}
+a:current{
+  color: #2196f3;
 }
 
 li {
