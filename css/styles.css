@@ -92,7 +92,7 @@ header {
   text-decoration: none;
   color: var(--c-dark);
 }
-
+.link-current,
 .link:hover,
 .link:focus {
   display: block;
