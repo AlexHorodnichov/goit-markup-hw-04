@@ -176,7 +176,7 @@ li {
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  background-image: url(../images/icons.svg/bgst.jpg);
+  background-image: url(../images/icons.svg/bgst.jpg), url(../images/icons.svg/bg.jpg), url(../images/icons.svg/img-overlay.jpg);
   background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
